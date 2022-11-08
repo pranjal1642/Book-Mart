@@ -1,0 +1,48 @@
+.banner {
+
+    background-image: url("https://images.pexels.com/photos/267586/pexels-photo-267586.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 100vmin;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    
+
+    color: whitesmoke;
+  }
+  
+  .banner > h1 {
+    margin: 5vmax;
+  
+    font: 600 2.5vmax "Roboto";
+  }
+  
+  .banner > p {
+    font: 300 1.4vmax "Lucida Sans";
+  }
+  
+  .banner > a > button {
+    margin-bottom: 5vmax;
+    cursor: pointer;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 0;
+    padding: 1vmax;
+    transition: all 0.5s;
+    width: 9vmax;
+    font: 500 1vmax "Roboto";
+  }
+  .banner > a > button:hover {
+    background-color: rgba(255, 255, 255, 0);
+    color: white;
+  }
+  
+  
+
+
+  

@@ -1,0 +1,433 @@
+.btn,
+.jumbotron,
+.nav :hover {
+	border-radius: 0px;
+}
+*{
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+body {
+	background: #343a40;
+}
+
+.jumbotron {
+	margin-bottom: -35px;
+}
+.jumbotron,
+.btn,
+.nav :hover {
+	border-radius: 0px;
+}
+
+body.html {
+	background: #ecf1efef;
+
+	min-height: 100%;
+	margin: 0;
+}
+
+.title {
+	margin-top: -3%;
+}
+.description {
+	margin-top: -1%;
+}
+.background {
+	background-color: #f1eced;
+}
+@media (max-width: 1000px) {
+	.SideNav {
+		display: none;
+	}
+	.MainNav {
+		min-width: 100%;
+		margin: 2% auto;
+	}
+	.title {
+		font-size: 6vw;
+	}
+}
+@media (min-width: 1000px) {
+	.TopNav {
+		display: none;
+	}
+}
+.text {
+	font-size: 10px;
+	color: white;
+	margin-left: -6px;
+	margin-right: -8px;
+}
+
+.cardbox {
+	margin-top: 5px;
+	max-width: 2000px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.proceed {
+	margin-left: auto !important;
+	margin-right: auto !important;
+}
+.btn-align {
+	margin-left: -2%;
+}
+@media (min-width: 1200px) {
+	.container {
+		max-width: 1300px;
+	}
+}
+.container {
+	background-color: #2a292b;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700');
+* {
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.product-card {
+	box-shadow: 0 13px 19px #faf6f6;
+
+	background: #f7f5f5;
+}
+
+.product-tumb {
+	display:flex;
+	align-items: center;
+	justify-content: center;
+    width:  100%;
+    height: auto;
+    box-sizing:border-box;
+    background-origin: padding-box;
+    border: whitesmoke;
+	
+	padding: 50px;
+	background: #242525;
+}
+
+.product-tumb img {
+	max-width: 60%;
+	max-height: 70%;
+    margin-bottom: auto;
+}
+
+.product-details {
+	padding: 20px;
+}
+
+.product-category {
+	display: block;
+	font-size: 12px;
+	font-weight: 1000;
+	text-transform: uppercase;
+	color: rgb(78, 79, 80);
+	margin-bottom: 10px;
+}
+
+.product-details h4 a:hover {
+	color: #fbb72c;
+}
+
+.product-details p {
+	font-size: 12px;
+	line-height: auto;
+	margin-bottom: 18px;
+	color: #999;
+}
+
+.product-bottom-details {
+	overflow: hidden;
+	border-top: 1px solid #eee;
+	padding-top: 10px;
+}
+
+.product-bottom-details div {
+	float: left;
+	width: 50%;
+}
+
+.product-price {
+	font-size: 25px;
+	color: #fbb72c;
+	font-weight: 600;
+}
+
+.product-price small {
+	font-size: 80%;
+	font-weight: 400;
+	text-decoration: line-through;
+	display: inline-block;
+	margin-right: 5px;
+}
+
+.product-links {
+	text-align: right;
+}
+
+.product-links a {
+	display: inline-block;
+	margin-left: 5px;
+	color: #e1e1e1;
+	transition: 0.3s;
+	font-size: 17px;
+}
+
+.product-links a:hover {
+	color: #fbb72c;
+}
+footer {
+	position: relative;
+	bottom: 0px;
+
+	min-width: 100%;
+}
+.alignment {
+	margin-bottom: 27%;
+}
+
+/*
+  .navbar {
+	margin-bottom: 0;
+	background-color: black;
+	z-index: 9999;
+	border: 0;
+	font-size: 12px !important;
+	line-height: 1.42857143 !important;
+	letter-spacing: 4px;
+	border-radius: 0;
+	font-family: 'Nova Square';
+  }
+  
+  .navbar li a,
+  .navbar .navbar-brand {
+	color: #fff !important;
+  }
+  
+  .navbar-nav li a:hover,
+  .navbar-nav li.active a {
+	color: #0e080f !important;
+	background-color: #fff !important;
+  }
+  
+  .navbar-default .navbar-toggle {
+	border-color: transparent;
+	color: #fff !important;
+  }
+  
+  .navbar-default .navbar-toggle .icon-bar {
+	background-color: #57a8d5;
+  
+  }
+  */
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins'  ,sans-serif;
+}
+section
+{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #112d42;
+}
+section::before
+{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    background: #03a9f4;
+}
+section .container
+{
+    position: relative;
+    min-width: 1100px;
+    min-height: 550px;
+    display:flex;
+    z-index: 1000;
+}
+section .container .contactinfo
+{
+    position: absolute;
+    top: 40px;
+    width: 350px;
+    height: calc(100%-80px);
+    background: #0f3959;
+    z-index: 1;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 0 20px 20px rgba(0, 0, 0,0.2);
+}
+section .container .contactinfo h2
+{
+    color: #ffff;
+    font-size: 24px;
+    font-weight: 500;
+}
+section .container .contactinfo .info
+{
+    position: relative;
+    margin: 20px 0;
+}
+section .container .contactinfo .info li
+{
+    position: relative;
+    list-style: none;
+    display: flex;
+    margin: 20px 0;
+    cursor: pointer;
+    align-items: flex-start;
+}
+section .container .contactinfo .info li span:nth-child(1)
+{
+    width: 30px;
+    min-height: 30px;
+}
+section .container .contactinfo .info li span:nth-child(1) img
+{
+    max-width: 100%;
+    filter: invert(1);
+    opacity: 0.5;
+}
+section .container .contactinfo .info li span:nth-child(2)
+{
+    color: #fff;
+    margin-left: 10px;
+    font-weight: 300;
+    opacity: 0.5;
+}
+section .container .contactinfo .info li:hover span:nth-child(1) img,
+section .container .contactinfo .info li:hover span:nth-child(2)
+{
+    opacity: 1;
+}
+section .container .contactinfo .sci
+{
+    position: relative;
+    display: flex; 
+}
+section .container .contactinfo .sci li
+{
+    list-style: none;
+    margin-right: 15px;
+}
+section .container .contactinfo .sci li a
+{
+    text-decoration: none;
+}
+section .container .contactinfo .sci li a img
+{
+    filter: invert(1);
+    opacity: 0.5;
+}
+section .container .contactinfo .sci li:hover a img
+{
+    opacity: 1;
+}
+section .container .contactForm
+{
+    position: absolute;
+    padding: 10px 20px;
+    background: #fff;
+    margin-left: 150px;
+    padding-left: 250px;
+    width: calc(100%-150px);
+    height: 100%;
+    box-shadow: 0 50% 50px rgba(0, 0, 0, 0.5);
+
+}
+section .container .contactForm h2
+{
+    color: #0f3959;
+    font-size: 24px;
+    font-weight: 500;
+}
+section .container .contactForm .formBox
+{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 30px;
+}
+section .container .contactForm .formBox .inputBox
+{
+    position: relative;
+    margin: 0 0 35px 0;
+}
+section .container .contactForm .formBox .inputBox.w50
+{
+    width: 47%;
+}
+section .container .contactForm .formBox .inputBox.w100
+{
+    width: 100%;
+}
+section .container .contactForm .formBox .inputBox input,
+section .container .contactForm .formBox .inputBox textarea
+{
+    width: 100% !important;
+    padding: 5px 0;
+    resize: none;
+    font-size: 18px;
+    font-weight: 300;
+    color: #333;
+    border: none;
+    border-bottom: 1px solid #777;
+    outline: none;
+}
+section .container .contactForm .formBox .inputBox textarea
+{
+    min-height: 120px;
+}
+section .container .contactForm .formBox .inputBox span
+{
+    position: absolute;
+    left: 0;
+    padding: 5px 0;
+    font-size: 18px;
+    font-weight: 300;
+    color: #333;
+    transition: 0.5s;
+    pointer-events: none;
+}
+section .container .contactForm .formBox .inputBox input:focus ~ span,
+section .container .contactForm .formBox .inputBox textarea:focus ~ span,
+section .container .contactForm .formBox .inputBox input:valid ~ span,
+section .container .contactForm .formBox .inputBox textarea:valid ~ span
+{
+    transform: translateY(-20px);
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color:#ff568c;
+}
+section .container .contactForm .formBox .inputBox input[type="submit"]
+{
+    position: relative;
+    cursor: pointer;
+    background: #0f3959;
+    color: #fff;
+    border: none;
+    max-width: 150px;
+    padding: 12px;
+}
+section .container .contactForm .formBox .inputBox input[type="submit"]:hover
+{
+    background: #ff568c;
+}
